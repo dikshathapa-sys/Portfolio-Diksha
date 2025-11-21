@@ -49,8 +49,11 @@ section {
 }
 
 #Home {
-    background: #92A8D1; /* Light Blue */
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 20px;
 }
 
 #Home h1 {
@@ -73,7 +76,7 @@ section {
     width: 250px;
     height: 300px;
     margin-right: 150px;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-top: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     transition: transform 0.3s;
